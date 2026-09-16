@@ -27,4 +27,5 @@ Project Goal
 The objective of WanderWise is to transform travel planning into an engaging and intuitive experience by combining beautiful design, live travel data, and AI-assisted recommendations, helping users make informed decisions before and during their journeys.
 
 
-![Uploading image.png…]()
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a765d68-54f8-47d8-b48e-a8be46a684f7" />
+
