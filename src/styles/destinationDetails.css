@@ -1,0 +1,253 @@
+.details-hero {
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.details-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+}
+
+.about-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.about-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-container h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #64748b;
+  max-width: 900px;
+}
+
+.places-section {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.places-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.places-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #0f172a;
+}
+
+.places-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  gap: 30px;
+}
+
+.place-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  transition: 0.3s;
+}
+
+.place-card:hover {
+  transform: translateY(-8px);
+}
+
+.place-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.place-content {
+  padding: 20px;
+}
+
+.place-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.place-content p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.weather-section {
+  padding: 80px 12%;
+  background: #fff;
+}
+
+.weather-section h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #0f172a;
+}
+
+/* CENTER CARD */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+/* chatbot.css */
+
+.chat-section {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.chat-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.chat-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 42px;
+  color: #0f172a;
+}
+
+.chat-input-group {
+  display: flex;
+  gap: 15px;
+}
+
+.chat-input-group input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.chat-input-group button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-input-group button:hover {
+  background: #1d4ed8;
+}
+
+.loading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.answer-box {
+  margin-top: 30px;
+  background: #f1f5f9;
+  padding: 25px;
+  border-radius: 15px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.itinerary-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.generate-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.itinerary-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 20px;
+}
+
+.day-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.day-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.day-card ul {
+  padding-left: 20px;
+}
+
+.day-card li {
+  margin-bottom: 8px;
+}
